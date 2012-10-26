@@ -1,0 +1,9 @@
+<p>
+	<b>content:</b>
+	<%= answer.content%>
+</p>
+<p>
+	  <%= link_to '删除', [answer.question, answer],
+               :confirm => 'Are you sure?',
+               :method => :delete %>
+</p>
